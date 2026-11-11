@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Google Profile Setup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one narrow column, a numbered trail of steps down the page, grout-line dividers. */
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --ink: #1d2422;
+  --muted: #5d6762;
+  --line: #dcdcd4;
+  --accent: #2f6b5a;
+  --accent-soft: #e3eee9;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141917; --surface: #1c2320; --ink: #e9ece8; --muted: #a3ada7;
+    --line: #2e3733; --accent: #7cc4ad; --accent-soft: #20302a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141917; --surface: #1c2320; --ink: #e9ece8; --muted: #a3ada7;
+  --line: #2e3733; --accent: #7cc4ad; --accent-soft: #20302a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--bg); color: var(--ink); font: 17px/1.55 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 56px; margin: 0;
+}
+main { max-width: 640px; margin: 0 auto; }
+h1, h2 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(30px, 7vw, 40px); line-height: 1.1; font-weight: 800; letter-spacing: -0.01em; }
+.lede { color: var(--muted); margin: 12px 0 8px; font-size: 18px; }
+.time { display: inline-block; font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+ol.steps { list-style: none; padding: 0; margin: 32px 0 0; display: grid; gap: 0; }
+.step { display: grid; grid-template-columns: 44px 1fr; gap: 16px; padding: 22px 0; border-top: 1px solid var(--line); }
+.num {
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--accent); color: var(--bg); font-family: var(--display); font-weight: 800; font-size: 19px;
+  font-variant-numeric: tabular-nums;
+}
+.step > div { min-width: 0; }
+.step h2 { font-size: 21px; font-weight: 700; line-height: 1.25; margin-top: 8px; }
+.step p { margin: 8px 0 0; }
+.step ul { margin: 8px 0 0; padding-left: 20px; }
+.step li { margin: 4px 0; }
+.tip { color: var(--muted); font-size: 15px; }
+b { font-weight: 600; }
+a { color: var(--accent); }
+.sample { margin-top: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; font-size: 15.5px; }
+.sample span { display: block; font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.dont { margin-top: 8px; padding: 18px 0 0; border-top: 1px solid var(--line); }
+.dont h2 { font-size: 17px; font-weight: 700; }
+.dont ul { margin: 8px 0 0; padding-left: 20px; color: var(--muted); font-size: 15.5px; }
+.handoff { margin-top: 36px; background: var(--accent-soft); border-radius: 14px; padding: 24px 22px; }
+.handoff h2 { font-size: 24px; font-weight: 800; }
+.handoff ol { margin: 14px 0 0; padding-left: 22px; }
+.handoff li { margin: 6px 0; }
+.handoff p { margin: 14px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <span class="time">About 30 minutes</span>
+  <h1>Set up your Google Business Profile</h1>
+  <p class="lede">This is what makes your tile company show up on Google and Google Maps when people search for a tile setter. Do these steps in order.</p>
+
+  <ol class="steps">
+    <li class="step"><div class="num">1</div><div>
+      <h2>Get these ready</h2>
+      <ul>
+        <li>A Gmail account you'll keep for the business</li>
+        <li>Your business name, exactly as it's written on your truck and invoices</li>
+        <li>Your phone number</li>
+        <li>The towns you work in</li>
+        <li>Your logo and 10 to 20 photos of finished tile jobs</li>
+      </ul>
+    </div></li>
+
+    <li class="step"><div class="num">2</div><div>
+      <h2>Go to google.com/business</h2>
+      <p>Open <a href="https://www.google.com/business/" target="_blank" rel="noopener">google.com/business</a>, tap <b>Manage now</b>, and sign in with your business Gmail.</p>
+    </div></li>
+
+    <li class="step"><div class="num">3</div><div>
+      <h2>Type your business name</h2>
+      <p>If your business already pops up in the list, tap it and claim it. If not, keep typing to make a new one.</p>
+    </div></li>
+
+    <li class="step"><div class="num">4</div><div>
+      <h2>Pick the category "Tile contractor"</h2>
+    </div></li>
+
+    <li class="step"><div class="num">5</div><div>
+      <h2>Say "No" to customers visiting you</h2>
+      <p>When it asks if customers can visit your location, tap <b>No</b>. You go to them, so this keeps your home address private.</p>
+    </div></li>
+
+    <li class="step"><div class="num">6</div><div>
+      <h2>Add the towns you work in</h2>
+      <p>Type each town or area you'll travel to for jobs.</p>
+    </div></li>
+
+    <li class="step"><div class="num">7</div><div>
+      <h2>Add your phone number</h2>
+      <p>Add a website too if you have one. It's fine to skip it.</p>
+    </div></li>
+
+    <li class="step"><div class="num">8</div><div>
+      <h2>Record the verification video</h2>
+      <p>Google needs proof your business is real before it shows your profile. Record one video with no cuts, in daylight, showing:</p>
+      <ul>
+        <li>A street sign in a town you work in</li>
+        <li>Your truck with your business name on it, and your tools</li>
+        <li>An invoice, business card or business license</li>
+      </ul>
+      <p class="tip">Google usually approves it in a few days. If it gets rejected, record it again more clearly.</p>
+    </div></li>
+
+    <li class="step"><div class="num">9</div><div>
+      <h2>Fill in the rest</h2>
+      <ul>
+        <li><b>Services:</b> showers, tub surrounds, backsplashes, floors, waterproofing, repairs</li>
+        <li><b>Hours</b></li>
+        <li><b>Photos:</b> your logo, then your best tile jobs</li>
+        <li><b>Description:</b> a few lines about what you do and where</li>
+      </ul>
+      <div class="sample"><span>Example description</span>[Your business] is a tile setting company serving [town], [town] and [town]. For [X] years we've installed custom showers, tub surrounds, backsplashes and tile floors for homeowners and builders. Clean layouts, proper waterproofing, and we show up when we say we will. Call for a free quote.</div>
+    </div></li>
+
+    <li class="step"><div class="num">10</div><div>
+      <h2>Ask every customer for a review</h2>
+      <p>Reviews are what get you calls. In your profile, tap <b>Ask for reviews</b> to get your link. Text it to each happy customer the day you finish their job.</p>
+    </div></li>
+  </ol>
+
+  <div class="dont">
+    <h2>Don't do these (Google can shut your profile down)</h2>
+    <ul>
+      <li>Don't add extra words to your name, like "Best Tile Setter". Use your real business name.</li>
+      <li>Don't make more than one profile for your business.</li>
+      <li>Don't pay for reviews or give discounts for them.</li>
+    </ul>
+  </div>
+
+  <section class="handoff">
+    <h2>Then add Michael so he can optimize it</h2>
+    <p>Once your profile is verified, add Michael as a manager. He'll write your description and services, set up your categories and towns, add your photos and get your review link ready.</p>
+    <ol>
+      <li>Open your Business Profile on Google.</li>
+      <li>Tap <b>Settings</b> (the three dots), then <b>People and access</b>.</li>
+      <li>Tap <b>Add</b>.</li>
+      <li>Type in Michael's email. He'll text it to you.</li>
+      <li>Choose <b>Manager</b> and tap <b>Invite</b>.</li>
+    </ol>
+    <p>You stay the owner. You can remove him anytime.</p>
+  </section>
+</main>
+</body>
+</html>
